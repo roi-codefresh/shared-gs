@@ -6,7 +6,7 @@ metadata:
 spec:
   dependencies:
   - eventName: example-with-interval
-    eventSourceName: calendar
+    eventSourceName: calendar2
     name: calendar-dep
   eventBusName: codefresh-eventbus
   template:
@@ -34,7 +34,7 @@ spec:
                 parameters:
                 - name: message
               workflowTemplateRef:
-                name: hello-world
+                name: hello-world2
             status:
               finishedAt: null
               startedAt: null
